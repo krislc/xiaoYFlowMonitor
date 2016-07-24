@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="hello"></string> 
+    <string name="title">标题</string>
+    <string name="apply">应用</string>
+    <string name="cancel">取消</string>
+    <string name="unit">单位</string>
+    <string name="Mb">Mb</string>
+    <string name="day">日</string>
+    <string name="set_gprs_max">GPRS套餐流量</string>
+    <string name="set_warn_traffic">提醒流量</string>
+    <string name="set_used_traffic">已用流量</string>
+    <string name="set_BSD">月结日</string>
+    <string name="Gb">Gb</string>
+    <string name="percent">%</string>
+    <string name="monthly">每月</string>
+    <string name="not_more_than_10G">流量限额不能超过10G</string>
+    <string name="more_than_10M">提醒流量不小于10M</string>
+    <string name="less_than_maxtraffic">提醒流量不超过最大限额</string>
+    <string name="BSD_invalidity">无效的结算日</string>
+    <string name="data_invalidity">输入的数据无效</string>
+    <string name="do_you_reset_warn">套餐总流量已改变，建议重设提醒流量。</string>
+    <string name="the_month_max">本月套餐总额</string>
+    <string name="the_month_used">本月已用流量</string>
+    <string name="the_month_surplus">本月剩余流量</string>
+    <string name="the_BSD_tips">距离月结日还有</string>
+    <string name="days">天</string>
+    <string name="used">已用</string>
+
+  <string name="jkjm">监控界面</string> 
+  <string name="gywm">关于我们</string> 
+  <string name="tjjm">统计界面</string> 
+  <string name="szjm">设置界面</string> 
+  <string name="gprs">gprs流量</string> 
+  <string name="wifi">wifi流量</string> 
+  <string name="sx">上行</string> 
+  <string name="xx">下行</string> 
+  <string name="jt">今天</string> 
+  <string name="hj">合计</string> 
+  <string name="bz">本周</string> 
+  <string name="yy">以用</string> 
+  <string name="sy">剩余</string> 
+  <string name="by">本月</string> 
+  <string name="app_name">小Y流量监控</string> 
+    <string name="service_notification">小Y正在努力为您服务！</string> 
+    
+    <string name="helpInfo">您可以用LY流量监控做什么？
+    \n（1）您可以自定义“GPRS流量套餐”；如果不设置，默认值为30M。
+    \n（2）您可以自定义“月结日”；如果不设置，默认值为每月1日。
+    \n（3）您可以自定义“提醒流量”，一旦到达流量提醒值，软件会以消息提醒您；如果不设置，默认值为25M。
+    \n（4）如果您第一次使用软件，我们建议您设置“已用流量”以确保软件统计正确；如果不设置，默认值为0。</string>
+    <string name="aboutInfo">LY流量监控(版本1.1)
+    \n此款软件可以对手机的联网程序做实时监控，让你轻松了解自己的流量使用情况。
+    \n\nMetoo流量监控软件特点：
+    \n1.GPRS实时流量监控；
+    \n2.GPRS月流量排行榜；
+    \n3.GPRS月流量提醒;
+    \n\n刘超感谢您的使用！\n如有问题，请联系我们：\qq534400407\n</string>
+    <string name="aboutTab">关于我们</string>
+    <string name="helpTab">帮助</string>
+    <string name="monitorTab">实时监控</string>
+    <string name="historyTab">历史排行榜</string>
+
+<string name="iptables_purge_error">清除规则失败</string>
+<string name="iptables_binaryFiles_error">安装二进制文件失败</string>
+<string name="iptables_applyRule_error">应用防火墙规则失败</string>
+<string name="iptables_hasNotRoot_error">您的手机没有Root权限  \n\n 要正常使用防火墙功能，请先获取Root权限</string>
+<string name="history_list_tips1">勾选应用程序，一键阻止程序联网：</string>
+<string name="history_list_tips2">个程序联网\n点击应用按钮可阻止选中的程序联网</string>
+<string name="history_list_apply">一键阻止</string>
+ <string name="toast_bin_installed">联网控制开启!</string>
+    <string name="title_enabled">小Y联网控制 </string>
+    <string name="title_disabled">小Y联网监控 (防火墙已禁用)</string>
+    <string name="showrules">显示规则</string>
+    <string name="applyrules">应用规则</string>
+    <string name="saverules">保存规则</string>
+    <string name="purgerules">清空规则</string>
+    <string name="setpwd">设置密码</string>
+    <string name="help">帮助</string>
+    <string name="traffic">当月流量</string>
+    <string name="close">关闭</string>
+    <string name="exit">退出</string>
+    <string name="fw_enabled">防火墙已启用</string>
+    <string name="fw_disabled">防火墙已禁用</string>
+    <string name="log_enabled">日志已启用</string>
+    <string name="log_disabled">日志已禁用</string>
+    <string name="log_was_enabled">日志已被启用</string>
+    <string name="log_was_disabled">日志已被禁用</string>
+    <string name="log_cleared">日志已清除</string>
+    <string name="show_log">显示日志</string>
+    <string name="clear_log">清除日志</string>
+    <string name="applying_rules">应用iptables规则.</string>
+    <string name="saving_rules">保存iptables规则.</string>
+    <string name="deleting_rules">删除iptables规则.</string>
+    <string name="rules_applied">规则应用成功</string>
+    <string name="rules_saved">规则保存成功</string>
+    <string name="rules_deleted">规则删除成功</string>
+    <string name="pass_titleset">设置密码锁定</string>
+    <string name="pass_titleget">需要密码</string>
+    <string name="enterpass">输入密码:</string>
+    <string name="enternewpass">输入新密码(放空则删除):</string>
+    <string name="passdefined">密码锁定已设置</string>
+    <string name="passremoved">密码锁定已移除</string>
+    <string name="passerror">改变密码锁定出错</string>
+    <string name="working">工作中</string>
+    <string name="reading_apps">读取安装的程序</string>
+    <string name="please_wait">请稍等</string>
+    <string name="mode_header">模式: %s</string>
+    <string name="mode_whitelist">白名单(允许选中)</string>
+    <string name="mode_blacklist">黑名单(阻止选中)</string>
+    <string name="toast_error_enabling">联网监控: 启用防火墙时出错!</string>
+     <string name="toast_enabled">联网监控: 防火墙启用！</string>
+     <string name="toast_disabled">联网监控: 防火墙禁用</string>
+    <string name="toast_error_disabling">联网监控: 防火墙发生错误！</string>
+     <string name="operation">操作</string>
+    <string name="menu_switch">切换至该程序</string>
+    <string name="menu_kill">结束进程</string>
+    <string name="menu_detail">详细信息</string>
+    <string name="menu_uninstall">卸载该程序</string>
+    
+    <string name="memory_unknown">Unknown</string>
+
+    <string name="message_switch_fail">切换失败！</string>
+   
+</resources>

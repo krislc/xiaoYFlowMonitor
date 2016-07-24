@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainmel"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg06"
+    >
+
+    <RelativeLayout
+	android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	
+	<ImageView android:id="@+id/ImageView01" android:layout_marginLeft="3dip" android:layout_marginRight="3dip"
+		android:background="@drawable/bg4"
+		android:layout_width="fill_parent"
+		android:layout_height="100dip"
+		android:layout_marginTop="20dip"
+		android:layout_centerHorizontal="true">
+	</ImageView>
+	
+	<ImageView android:id="@+id/ImageView02" android:layout_marginLeft="3dip" android:layout_marginRight="3dip"
+		android:background="@drawable/bg2"
+		android:layout_below="@id/ImageView01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip"
+		android:layout_centerHorizontal="true">
+	</ImageView>
+	
+	<TableLayout 
+	 		android:id="@+id/TableLayout01" 
+	 		android:layout_width="fill_parent" 
+	 		android:layout_height="72dip"
+	 		android:stretchColumns="0"
+	 		android:layout_centerHorizontal="true"
+	 		android:layout_marginTop="20dip"
+	 		>
+	 		<TableRow>
+	 			<TextView 
+	            	android:text="本日流量" 
+	              	android:padding="3dip"
+	              	android:layout_height="24dip"
+	              	android:textColor="#fff" 
+	              	/>
+	 		</TableRow>
+	 		<TableRow>
+	 			<TextView
+	 				android:text="本日已用3G流量："
+	 				android:padding="3dip"
+	 				android:layout_height="24dip"
+	 				android:textColor="#fff" />
+	 			<TextView
+	 				android:id="@+id/Today_3G"
+	 				android:gravity="right"
+	 				android:padding="3dip"
+	 				android:layout_height="24dip"
+	 				android:textColor="#fff" 
+	 				android:layout_width="80pt"/>
+	 		</TableRow>
+	 		<TableRow>
+	 			<TextView
+	 				android:layout_height="24dip"
+	 				android:text="本日已用WIFI流量："
+	 				android:padding="3dip"
+	 				android:textColor="#fff" />
+	 			<TextView
+	 				android:id="@+id/Today_WIFI"
+	 				android:layout_height="24dip"
+	 				android:gravity="right"
+	 				android:padding="3dip"
+	 				android:textColor="#fff" 
+	 				android:layout_width="80pt"/>
+	 		</TableRow>
+ 	</TableLayout>
+ 		<TableLayout 
+	 		android:id="@+id/TableLayout02" 
+	 		android:layout_below="@id/ImageView01"
+	 		android:layout_width="fill_parent" 
+	 		android:layout_height="144dip"
+	 		android:stretchColumns="0"
+	 		android:layout_marginTop="20dip"
+	 		android:layout_centerHorizontal="true">
+	 		<TableRow>
+	 			<TextView 
+	            	android:text="本月流量" 
+	              	android:padding="3dip"
+	              	android:textColor="#fff"/>
+	 		</TableRow>
+	 		<TableRow
+	 			android:layout_marginTop="3dip">
+	 			<TextView
+	 				android:text="本月限制3G流量："
+	 				android:padding="3dip"
+	 				android:textColor="#fff" />
+	 			<TextView
+	 				android:id="@+id/limit"
+	 				android:gravity="right"
+	 				android:padding="3dip"
+	 				android:textColor="#fff"
+	 				android:layout_width="80pt" />
+	 		</TableRow>
+	 		<TableRow>
+	 			<TextView
+	 				android:text="本月已用3G流量："
+	 				android:padding="3dip"
+	 				android:textColor="#fff" />
+	 			<TextView
+	 				android:id="@+id/Month_3G"
+	 				android:gravity="right"
+	 				android:padding="3dip"
+	 				android:textColor="#fff"
+	 				android:layout_width="80pt" />
+	 		</TableRow>
+	 		<TableRow>
+	 			<TextView
+	 				android:text="本月剩余3G流量："
+	 				android:padding="3dip"
+	 				android:textColor="#fff" />
+	 			<TextView
+	 				android:id="@+id/Remain"
+	 				android:gravity="right"
+	 				android:padding="3dip"
+	 				android:textColor="#fff"
+	 				android:layout_width="80pt" />
+	 		</TableRow>
+	 		<TableRow>
+	 			<TextView
+	 				android:text="本月已用WIFI流量："
+	 				android:padding="3dip"
+	 				android:textColor="#fff" />
+	 			<TextView	 
+	 				android:id="@+id/Month_WIFI"				
+	 				android:gravity="right"
+	 				android:padding="3dip"
+	 				android:textColor="#fff"
+	 				android:layout_width="80pt" />
+	 		</TableRow>
+	 		<TableRow>
+	 			
+	 		</TableRow>
+ 		</TableLayout>
+       <TableLayout
+            android:id="@+id/TableLayout03" 
+	 		android:layout_below="@id/ImageView02"
+	 		android:layout_width="fill_parent" 
+	 		android:layout_height="wrap_content"
+	 		android:layout_marginTop="20dip"
+	 		android:layout_centerHorizontal="true">
+ 		    <TableRow>
+ 		        <TextView
+ 		            android:id="@+id/up"
+ 		            android:textColor="#fff"
+ 		            android:text="上行速度："
+ 		            android:layout_width="80dip"
+ 		        />
+ 		        <TextView
+ 		            android:id="@+id/upRate"
+ 		            android:textColor="#fff"
+ 		            android:layout_width="80dip"
+ 		        />
+ 		        <TextView
+ 		            android:id="@+id/down"
+ 		            android:textColor="#fff"
+ 		            android:text="下行速度："
+ 		            android:layout_width="80dip"
+ 		        />
+ 		        <TextView
+ 		            android:id="@+id/downRate"
+ 		            android:textColor="#fff"
+ 		            android:layout_width="80dip"
+ 		        />
+ 		    </TableRow>
+ 		</TableLayout>
+</RelativeLayout>
+
+<!-- 
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+ 		<TableLayout>
+ 		    <TableRow>
+ 		        <TextView
+ 		            android:id="@+id/up"
+ 		            android:textColor="#fff"
+ 		            android:text="上行速度："
+ 		        />
+ 		        <TextView
+ 		            android:id="@+id/upRate"
+ 		            android:textColor="#fff"
+ 		        />
+ 		        <TextView
+ 		            android:id="@+id/down"
+ 		            android:textColor="#fff"
+ 		            android:text="下行速度："
+ 		        />
+ 		        <TextView
+ 		            android:id="@+id/downRate"
+ 		            android:textColor="#fff"
+ 		        />
+ 		    </TableRow>
+ 		</TableLayout>
+</LinearLayout>
+ -->
+ <LinearLayout android:id="@+id/listLinearLayout2" android:layout_marginLeft="3dip" android:layout_marginRight="1dip"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_weight="1" android:gravity="bottom">
+
+        <GridView android:id="@+id/GridView_toolbar"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true">
+
+		
+		</GridView>
+		
+      </LinearLayout>
+      
+</LinearLayout>

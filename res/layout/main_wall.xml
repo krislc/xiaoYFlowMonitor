@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:duplicateParentState="false"
+	android:background="@drawable/bg06">
+	<View android:layout_width="fill_parent" android:layout_height="1sp"
+		android:background="#FFFFFFFF" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="8sp">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/label_mode"
+			android:text="Mode: " android:textSize="20sp" android:clickable="true"></TextView>
+	</LinearLayout>
+	<View android:layout_width="fill_parent" android:layout_height="1sp"
+		android:background="#FFFFFFFF" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="3sp">
+		
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/img_wifi"
+			android:src="@drawable/eth_wifi" android:clickable="false"
+			android:layout_alignParentRight="true" android:paddingRight="3sp"
+			android:paddingLeft="10sp"></ImageView>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/img_3g"
+			android:layout_toLeftOf="@id/img_wifi" android:src="@drawable/eth_g"
+			android:clickable="false"></ImageView>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/img_download"
+			android:src="@drawable/download" android:layout_toLeftOf="@id/img_3g"
+			android:paddingLeft="22sp" android:paddingRight="35sp"
+			android:clickable="false"></ImageView>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/img_upload"
+			android:layout_toLeftOf="@id/img_download" android:src="@drawable/upload"
+			android:clickable="false"></ImageView>
+	</RelativeLayout>
+	<!-- <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:padding="3sp"> <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:id="@+id/img_wifi" android:src="@drawable/eth_wifi" android:clickable="false"></ImageView> 
+		<TextView android:layout_width="5px" android:layout_height="wrap_content" 
+		android:id="@+id/img_spacer" android:text="" android:textSize="20px" android:clickable="false"></TextView> 
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:id="@+id/img_3g" android:src="@drawable/eth_g" android:clickable="false"></ImageView> 
+		</LinearLayout> -->
+	<ListView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/listview"></ListView>
+</LinearLayout>

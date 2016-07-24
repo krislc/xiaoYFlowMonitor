@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	
+	<ImageView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" android:id="@+id/item_icon"
+	    android:layout_alignParentLeft="true"></ImageView>
+	    
+	<TextView
+	    android:id="@+id/app_text"
+	    android:layout_width="75sp"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@id/item_icon"
+	    android:paddingRight="15sp"
+	    android:text="uid:packages" >
+</TextView>
+	<TextView android:layout_height="wrap_content" android:id="@+id/upload"
+		android:layout_width="wrap_content" android:layout_toRightOf="@id/app_text" 
+		android:paddingLeft="15sp"
+		android:layout_centerVertical="true"></TextView>
+	<TextView android:layout_height="wrap_content" android:id="@+id/download"
+		android:layout_width="wrap_content"  android:layout_toRightOf="@id/upload"
+		android:layout_centerVertical="true" android:paddingLeft="10sp"
+		android:paddingRight="35sp"></TextView>
+	<CheckBox android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_centerVertical="true"
+		android:id="@+id/itemcheck_wifi"
+		android:layout_alignParentRight="true"></CheckBox>
+	<CheckBox android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/itemcheck_3g"
+		android:layout_centerVertical="true"
+		android:layout_toLeftOf="@id/itemcheck_wifi">
+		</CheckBox>
+	
+	
+</RelativeLayout>
+
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"> 
+	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	android:id="@+id/itemcheck_wifi"></CheckBox> <CheckBox android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" android:id="@+id/itemcheck_3g"></CheckBox> 
+	<TextView android:layout_height="wrap_content" android:id="@+id/itemtext" 
+	android:text="uid:packages" android:layout_width="fill_parent" android:ellipsize="end" 
+	android:singleLine="true"></TextView> <TextView android:layout_height="wrap_content" 
+	android:id="@+id/traffic_text" android:text="N/A" android:layout_width="wrap_content"></TextView> 
+	</LinearLayout> -->

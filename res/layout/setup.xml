@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg06">
+ <LinearLayout 
+ 	android:id="@+id/LinearLayout01"
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"> 
+ 	<TableLayout 
+ 		android:id="@+id/TableLayout01" 
+ 		android:layout_width="fill_parent" 
+ 		android:layout_height="wrap_content"
+ 		android:stretchColumns="0"
+ 		android:layout_marginTop="10dip"
+ 		android:layout_marginLeft="10dip"
+ 		android:layout_marginRight="10dip">
+		<TableRow>
+		<TableLayout
+		android:id="@+id/test">
+		<TableRow>
+			<TextView
+			    
+	 			android:text="每月流量限额"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="40dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+	 			</TableRow>
+	 			<TableRow>
+	 			<TextView
+	 			android:id="@+id/limit_flow"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="wrap_content"
+	 			android:textSize="15px"
+	 			android:textColor="#c8cbd0"/>
+	 			</TableRow>
+	 			</TableLayout>
+	 			
+			<ImageView
+				android:id="@+id/imageButton_quota"
+				android:layout_marginTop="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/setting"
+			    />
+		</TableRow>
+		<TextView
+	 			android:height="5dip" 
+	 			android:background="@drawable/line"/>
+	 	<TableRow>
+	 	
+	 	<TableLayout>
+		<TableRow>
+			<TextView
+	 			android:text="每月剩余流量提醒"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="40dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+	 			</TableRow>
+	 			<TableRow>
+	 			<TextView
+	 			android:id="@+id/flow_remind"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="wrap_content"
+	 			android:textSize="15px"
+	 			android:textColor="#c8cbd0"/>
+	 			</TableRow>
+	 			</TableLayout>
+	 			
+			<ImageView
+				android:id="@+id/imageButton_left"
+				android:layout_marginTop="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/setting"/>
+		</TableRow>
+		<TextView
+	 			android:background="@drawable/line"
+	 			android:height="5dip" />
+	 	<TableRow>
+	 	
+	 	<TableLayout>
+		<TableRow>
+		
+			<TextView
+			    
+	 			android:text="月结算日"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="40dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+	 			</TableRow>
+	 			<TableRow>
+	 			<TextView
+	 			android:id="@+id/count_date"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="wrap_content"
+	 			android:textSize="15px"
+	 			android:textColor="#c8cbd0"/>
+	 			</TableRow>
+	 			</TableLayout>
+	 			
+			<ImageView
+				android:id="@+id/imageButton_date"
+				android:layout_marginTop="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/setting"/>
+		</TableRow>
+		<TextView
+	 			android:background="@drawable/line"
+	 			android:height="5dip" />
+	 	
+	
+	 			
+	   <TableRow>
+	   <TableLayout>
+		<TableRow>
+			<TextView
+	 			android:text="清空所有统计数据"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="40dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+	 			</TableRow>
+	 			<TableRow>
+	 			<TextView
+	 			android:id="@+id/clear_data"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="wrap_content"
+	 			android:textSize="15px"
+	 			android:text="清空后不可恢复"
+	 			android:textColor="#c8cbd0"/>
+	 			</TableRow>
+	 			</TableLayout>
+			<ImageView
+				android:id="@+id/imageButton_clear"
+				android:layout_marginTop="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/setting"/>
+		</TableRow>
+		<TextView
+	 			android:background="@drawable/line"
+	 			android:height="5dip" />
+	 			
+	 	<TableRow>
+	 	<TableLayout>
+	 	<TableRow>
+			<TextView
+	 			android:text="流量警示"
+	 			android:gravity="center_vertical" 
+	 			android:padding="3dip"
+	 			android:layout_height="40dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+	 			</TableRow>
+	 		<TableRow>
+			<TextView
+	 			android:id="@+id/is_warn"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="wrap_content"
+	 			android:textSize="15px"
+	 			android:textColor="#c8cbd0"/>
+	 			</TableRow>
+	 			</TableLayout>
+			<ToggleButton
+				android:id="@+id/ToggleButton2" 
+				android:textOn="ON"
+				android:textOff="OFF"
+				android:layout_width="wrap_content" 
+				android:layout_height="60px"
+				android:layout_marginTop="20dip"
+				android:layout_centerVertical="true"
+				android:gravity="center">
+			</ToggleButton>
+			
+		</TableRow>
+		<TextView
+	 			android:background="@drawable/line"
+	 			android:height="5dip" />
+		<TableRow>
+		<TableLayout>
+	 	<TableRow>
+			<TextView
+	 			android:text="悬浮窗口"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="40dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+	 			</TableRow>
+	 			<TableRow>
+			<TextView
+	 			android:id="@+id/is_statist"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="wrap_content"
+	 			android:textSize="15px"
+	 			android:textColor="#c8cbd0"/>
+	 			</TableRow>
+	 		</TableLayout>
+			<ToggleButton
+				android:id="@+id/ToggleButton1" 
+				android:textOn="ON"
+				android:textOff="OFF"
+				android:layout_width="wrap_content" 
+				android:layout_height="60px"
+				android:layout_marginTop="20dip"
+				android:gravity="center" 
+				android:layout_centerVertical="true"
+				>
+			</ToggleButton>
+		
+		</TableRow>
+       <TextView
+	 			android:background="@drawable/line"
+	 			android:height="5dip" />
+
+	 </TableLayout>
+
+</LinearLayout>
+</ScrollView>
+

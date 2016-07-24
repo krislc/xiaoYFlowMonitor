@@ -1,0 +1,51 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.cqu.android.Activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.cqu.android.Activity.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.cqu.android.Activity.PackageBroadcast { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.cqu.android.Activity.StatusWidget { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.cqu.android.Activity.aboutus { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.cqu.android.Activity.applicationList { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.cqu.android.Activity.keepInTime { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.cqu.android.Activity.liuliangjiankong { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.cqu.android.Activity.mainPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.cqu.android.Activity.netList { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.cqu.android.Activity.setting { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.cqu.android.Activity.statist { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.cqu.android.allservice.monitoring.BootAndShutdownBroadcast { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.cqu.android.allservice.monitoring.FloatService { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.cqu.android.allservice.monitoring.MonitoringService { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.cqu.android.allservice.monitoring.Speed { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class org.achartengine.GraphicalActivity { <init>(...); }
+

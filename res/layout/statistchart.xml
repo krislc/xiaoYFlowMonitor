@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/layout"
+    android:layout_gravity="center" 
+    android:background="@drawable/bg06"
+    >
+  <TableLayout 
+ 		android:id="@+id/TableLayout02" 
+ 		android:layout_width="fill_parent" 
+ 		android:layout_height="wrap_content"
+ 		android:stretchColumns="0"
+ 		android:layout_marginTop="10dip"
+ 		android:layout_marginLeft="10dip"
+ 		android:layout_marginRight="10dip">
+		<TableRow>		
+			<TextView
+	 			android:text="每日流量统计"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="64dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>		
+			<ImageView
+				android:id="@+id/dayChart"
+				android:layout_marginTop="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/statistics"/>
+		</TableRow>
+		<TextView
+	 			android:height="5dip" 
+	 			android:background="@drawable/line1"/>
+	 	<TableRow>
+			<TextView
+	 			android:text="本月流量统计"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="64dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+			<ImageView
+				android:id="@+id/weekChart"
+				android:layout_marginTop="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/statistics"/>
+		</TableRow>
+		<TextView
+	 			android:background="@drawable/line1"
+	 			android:height="5dip" />
+	 	<TableRow>
+			<TextView
+	 			android:text="每月流量统计"
+	 			android:padding="3dip"
+	 			android:gravity="center_vertical" 
+	 			android:layout_height="64dip"
+	 			android:textColor="#FFFFFF"
+	 			android:textSize="18px"/>
+			<ImageView
+				android:id="@+id/monthChart"
+				android:layout_marginTop="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/statistics"/>
+		</TableRow>
+	</TableLayout>
+  
+    	
+    </LinearLayout>

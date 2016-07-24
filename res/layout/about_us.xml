@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 android:background="@drawable/bg06"
+	>
+	<LinearLayout android:orientation="vertical"
+	    android:id="@+id/aboutus"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView 
+			android:id="@+id/help"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="22dip" android:textStyle="bold" android:text="说明"
+			android:gravity="center" android:padding="3dip" />	
+			
+		<TextView 
+			android:id="@+id/help1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textStyle="bold"
+			android:text="1.软件简介" />
+		<TextView android:id="@+id/help2"
+			android:layout_width="fill_parent"   
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="本软件为用户提供上网流量监控、流量统计、应用程序联网控制及手机流量控制等功能。\n" />
+		<TextView android:id="@+id/help3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:textStyle="bold"
+			android:text="2.操作说明" />
+		<TextView android:id="@+id/help4"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="点击底部按钮可进入各个子功能\n"/>
+
+		<TextView android:id="@+id/help6"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:textStyle="bold"
+			android:text="3.联网控制说明" />
+		<TextView android:id="@+id/help6"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="该页面以列表的形式显示有联网权限的应用程序，过滤掉了部分系统级应用程序可限制应用程序在2G/3G及WiFi状态下联网。\n
+		    1 可点击menu开启或关闭防火墙\n
+		    2 点击模式选择白名单或黑名单\n
+		    3 可点击除系统级应用外的任意应用程序，对应用进行卸载、切换等操作\n" />
+
+		<TextView android:id="@+id/help7"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:textStyle="bold"
+			android:text="4.流量统计说明" />
+		<TextView android:id="@+id/help8"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text=" 
+			1 仅统计2G/3G状态下的流量\n
+			2 分别绘制每天、本月、每月的流量数据图\n" />
+		<TextView 
+			android:id="@+id/help9"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="5.系统设置说明" android:textSize="20dip"
+			android:textStyle="bold" />
+		<TextView android:id="@+id/help10"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="
+			1 每月限额，超出限额前自动断网，阈值为0.5M\n
+			2 流量提醒，到达流量提醒值时主界面剩余流量值变为红色\n
+			3 悬浮窗口，显示瞬时流量\n
+			4 清空数据   \n" /> 
+		<TextView android:id="@+id/help11"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="6.相关信息" android:textSize="20dip"
+			android:textStyle="bold" />
+		<TextView android:id="@+id/help12"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="
+			1 版本信息:Y1.0试用版\n
+			2 适用平台:Android2.3--4.2.2\n
+			3 版本时间:2013-07-09\n
+			4 版权所有:小Y工作室\n
+			5 成员介绍:小刘，小闫\n	
+			6 所在地区:燕山大学\n
+			7 联系电话:15232366299\n
+			8 联系邮箱:534400407@qq.com\n
+		    \n\n\n\n\n\n\n\n\n\n\n\n\n" />
+	</LinearLayout>
+</ScrollView>
+
+
+

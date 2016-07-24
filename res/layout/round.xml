@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+
+<TextView 
+android:text="请选择合适的周期" 
+android:id="@+id/TextView_round" 
+android:layout_width="200px" 
+android:layout_height="50px"
+></TextView>
+
+
+
+<Spinner 
+
+android:id="@+id/Spinner01" 
+android:layout_width="200px" 
+android:layout_height="50px"
+></Spinner>
+
+<Button 
+android:text="save" 
+android:id="@+id/Button_save_round" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+></Button>
+
+
+<Button 
+android:text="cancle" 
+android:id="@+id/Button_cancle_round" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+></Button>
+
+
+
+</LinearLayout>
